@@ -31,6 +31,9 @@ let cgpa = parseInt(studentCgpa);
 document.writeln('Float to Integer: ' +typeof(cgpa));
 document.writeln(cgpa + '<br>');
 
+document.writeln("To Fixed: " + studentCgpa.toFixed(3)+ '<br>'); //returns String
+document.writeln("To Precision: " + studentCgpa.toPrecision(5)+ '<br>'); //returns String
+
 //Float to String
 let fS = cgpa.toString();
 document.writeln('Float to String: '+typeof(fS));
@@ -47,3 +50,10 @@ document.writeln('String to Number(Integer): '+typeof(bS));
 document.writeln(bS + '<br>');
 
 //Try Integer to String, String to Number(Float)
+//String to Number is NaN for alphabets
+
+//Number function
+document.writeln("String expressed with Number: "+Number("ddsds")+ '<br>');
+document.writeln("Number expressed in number: " + Number("434")+ '<br>');
+document.writeln("Number expressed in String:"+Number("      24     ")+ '<br>');
+document.writeln("Number expressed in Boolean:"+Number(true)+ '<br>');
