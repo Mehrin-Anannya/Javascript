@@ -114,10 +114,11 @@ console.log (highestScore(scores));
 //2d array declaration
  var studentInfo = [[1, "A"], [2, "B"], [3, "C"]];
 
+document.writeln("2d array: </br>");
 for(var i = 0; i < studentInfo.length; i++){
     for(var j = 0; j < studentInfo.length - 1; j++)
         document.writeln(studentInfo[i][j] + "      ");
-    document.writeln("<br>");
+    document.writeln("</br>");
 }
 
 
