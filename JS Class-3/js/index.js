@@ -66,19 +66,19 @@
     // document.writeln("Invalid");
 
     //switch case
-    switch (3){
-        case 0: document.writeln("0");
-        break;
-        case 1: document.writeln("1");
-        break;
-        case 2: document.writeln("2");
-        break;
-        default: document.writeln("Invalid");
-    }
+    // switch (3){
+    //     case 0: document.writeln("0");
+    //     break;
+    //     case 1: document.writeln("1");
+    //     break;
+    //     case 2: document.writeln("2");
+    //     break;
+    //     default: document.writeln("Invalid");
+    // }
 
-    //Looping
-    for(var i=0; i<5; i++)
-        document.writeln(i + "</br>");
+    // //Looping
+    // for(var i=0; i<5; i++)
+    //     document.writeln(i + "</br>");
 //Task : 123 (red), 456(green) & 789(blue) & 10 (black)
     // var i = 1;
 // while(i<=10){
@@ -114,6 +114,7 @@ for(i = 0 ; i < 5; i++)
         continue;
     document.writeln(i + "<br/>");
 }
+
 
 
 
