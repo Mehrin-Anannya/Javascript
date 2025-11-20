@@ -1,0 +1,9 @@
+.textStyle{
+    color: rgb(251, 243, 243);
+    letter-spacing: 10px;
+    border: 2px solid rgb(20, 18, 123);
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    background: rgb(122, 165, 245) ;
+}
